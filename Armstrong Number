@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 void isArmstrong(int n)
 {
     int sum=0;
@@ -19,3 +20,13 @@ if(num==sum)
 else
 cout<<"It is not an armstrong number";
 }
+
+int main()
+{
+    cout<<"Hello SD"<<endl;
+    int n;
+    cout<<"Enter a number"<<endl;
+    cin>>n;
+    isArmstrong(n);
+    return 0;
+    
