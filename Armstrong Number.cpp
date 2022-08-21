@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 void isArmstrong(int n)
 {
     int sum=0;
