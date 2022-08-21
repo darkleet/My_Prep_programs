@@ -29,4 +29,5 @@ int main()
     cin>>n;
     isArmstrong(n);
     return 0;
+}
     
