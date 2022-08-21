@@ -1,3 +1,4 @@
+
 void isPerfect(int n)
 {
     int sum=0;
@@ -16,4 +17,13 @@ void isPerfect(int n)
     {
         cout<<"It is not a perfect number";
     }
+}
+
+int main()
+{
+    cout<<"Hello SD"<<endl;
+    int n;
+    cout<<"Enter a number"<<endl;
+    cin>>n;
+    isPerfect(n);
 }
