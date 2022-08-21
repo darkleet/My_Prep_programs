@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+
 void isPalindrome(int n)
 {
     int num=n;
@@ -15,4 +17,14 @@ if(num==reverse)
 cout<<"Number is palindrome";
 else
 cout<<"Number is not palindrome";
+}
+
+int main()
+{
+    cout<<"Hello SD"<<endl;
+    int n;
+    cout<<"Enter a number"<<endl;
+    cin>>n;
+    isPalindrome(n);
+    return 0;
 }
